@@ -1,0 +1,15 @@
+.app {
+  background-color: #f1f2f562;
+  height:100vh;
+  overflow: auto;
+}
+
+.app_body{
+  
+  display:flex;
+}
+
+.appmiddle{
+  width:50%;
+  margin:auto;
+}
