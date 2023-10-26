@@ -17,7 +17,7 @@ function MessageSender() {
         const [imageInput, setImageInput] = useState("")
       const [posts, setPosts] = useState([]);
     const handleSubmit = async (e)=> {
-      console.log("YOOHOOO")
+      
       e.preventDefault();
       const madePost = {message:input,imageInput:imageInput, userName: user.displayName, userIcon: user.photoURL}
       console.log(imageInput)
